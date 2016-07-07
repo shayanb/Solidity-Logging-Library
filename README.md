@@ -1,6 +1,7 @@
 # Solidity-Logging-Library
 An expensive mid-level library to do loggings in smart contracts .
 
+
 ## example
 
 ```javascript
@@ -11,7 +12,14 @@ contract MyContract is logging {
   function MyContract() {
     logging.log("Initiated");
   }
+
+  function logTest(string test) public{
+    logging.log(test); //Gas Used By calling this function to write "test" = 65877
+  }
 }
+
+
+
 ```
 
 ## view logs
