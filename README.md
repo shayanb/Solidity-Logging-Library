@@ -38,5 +38,7 @@ message -> 496e697469617465640000000000000000000000000000000000000000000000 -> "
  * string[] public logStack; ?
  * mapping (uint => Log[]) public logStack; ?
 2. Optimize gas usage
+3. Support more datatypes (address, bytes, uint)
+ * maybe using a toBytes converter to write logs and a printLog() function to print logStack ? 
 
 
