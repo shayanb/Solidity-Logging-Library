@@ -1,5 +1,5 @@
 # Solidity-Logging-Library
-An expensive library to do loggings in smart contracts 
+An expensive mid-level library to do loggings in smart contracts .
 
 ## example
 
